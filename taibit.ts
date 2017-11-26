@@ -4,12 +4,12 @@
  * Read more at https://makecode.microbit.org/blocks/custom
  */
 
-enum MyEnum {
+// enum MyEnum {
     //% block="one"
-    One,
+//    One,
     //% block="two"
-    Two
-}
+//    Two
+// }
 
 /**
  * Taibit blocks
@@ -25,18 +25,18 @@ namespace taibit {
 
     /**
       * Show LED Matrix to back and forth for n times
-      * @param n describe parameter here, eg: 2
+      * @param ns describe parameter here, eg: 2
       */
     //% block
-    export function delayleds(n: number) {
-        while (n > 0) {
+    export function delayleds(ns: number) {
+        while (ns > 0) {
             for (let i = 0; i <= 4; i++) {
                 delay_LED(i)
             }
             for (let i = 4; i >= 0; i--) {
                 delay_LED(i)
             }
-            n--
+            ns--
         }
     }
 
@@ -50,11 +50,11 @@ namespace taibit {
 
     /**
       * Control Vibration Motor (pin12) => on | off
-      * @param n describe parameter here, eg: 0
+      * @param sw describe parameter here, eg: 0
     */
     //% block
-    export function vibrationMotor(n: number) {
-        vibration_Motor(n)
+    export function vibrationMotor(sw: number) {
+        vibration_Motor(sw)
     }
 
     /**

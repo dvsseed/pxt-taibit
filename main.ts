@@ -5,13 +5,12 @@
     Shake: led scanner
 */
 
-let a: number
-a = 0
+let a = 0
 basic.forever(() => {
     basic.pause(100)
 })
 
-function showled()  {
+function showled() {
     basic.clearScreen()
     basic.showIcon(IconNames.Square)
     basic.pause(100)
