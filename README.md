@@ -2,6 +2,8 @@
 Building Taibit package with PXT platform.
 # Usage
 This package allows to create a lot of sensor and provide the data from taibit board. Let's coding for fun!
+# Image
+![Taibit pinout](/taibit_pinout.jpg)
 # License
 Apache License 2.0
 # Code of Conduct
