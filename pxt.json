@@ -5,10 +5,12 @@
     "license": "Apache License 2.0",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "taibit": "file:../pxt-taibit"		
     },
     "files": [
         "README.md",
+        "taibit.ts",
         "main.ts"
     ],
     "testFiles": [
