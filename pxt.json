@@ -6,7 +6,7 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "taibit": "github:dvsseed/pxt-taibit#v0.1.3"
+        "taibit": "github:dvsseed/pxt-taibit"
     },
     "files": [
         "README.md",
