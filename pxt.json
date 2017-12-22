@@ -10,7 +10,6 @@
     },
     "files": [
         "README.md",
-        "taibit.ts",
         "main.ts"
     ],
     "testFiles": [
