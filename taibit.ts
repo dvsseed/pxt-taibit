@@ -1,9 +1,9 @@
 /**
  * Taibit blocks
  */
-//% weight=100 color=#0fbc11 icon=""
+//% weight=10 color=#0fbc11 icon=""
 namespace taibit {
-    /** function */
+    /** function - delay led */
     function delay_LED(item: number) {
         led.plot(item, 2)
         basic.pause(200)
@@ -14,7 +14,7 @@ namespace taibit {
       * Show LED Matrix to back and forth for n times
       * @param ns describe parameter here, eg: 2
       */
-    //% block
+    //% blockId="delay_leds" block="delay leds (ns)| %ns"
     export function delayleds(ns: number) {
         while (ns > 0) {
             for (let i = 0; i <= 4; i++) {
@@ -39,7 +39,7 @@ namespace taibit {
       * Control Vibration Motor (pin12) => on | off
       * @param sw describe parameter here, eg: 0
     */
-    //% block
+    //% blockId="vibration_motor" block="vibration motor (sw)| %sw"
     export function vibrationMotor(sw: number) {
         vibration_Motor(sw)
     }
