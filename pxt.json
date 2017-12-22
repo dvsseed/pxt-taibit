@@ -5,8 +5,7 @@
     "license": "Apache License 2.0",
     "dependencies": {
         "core": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.3.10",
-        "taibit": "github:dvsseed/pxt-taibit"
+        "neopixel": "github:microsoft/pxt-neopixel#v0.3.10"
     },
     "files": [
         "README.md",
