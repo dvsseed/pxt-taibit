@@ -1,6 +1,6 @@
 # taibit
 
-Building Taibit package with PXT platform.
+Extension for Taibit package with PXT platform.
 
 ## License
 
