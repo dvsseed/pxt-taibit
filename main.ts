@@ -15,6 +15,7 @@ namespace taibit {
       * @param ns describe parameter here, eg: 2
       */
     //% blockId="delay_leds" block="delay leds (ns)| %ns"
+    //% weight=5
     export function delayleds(ns: number) {
         while (ns > 0) {
             for (let i = 0; i <= 4; i++) {
@@ -40,6 +41,7 @@ namespace taibit {
       * @param sw describe parameter here, eg: 0
     */
     //% blockId="vibration_motor" block="vibration motor (sw)| %sw"
+    //% weight=100
     export function vibrationMotor(sw: number) {
         vibration_Motor(sw)
     }
@@ -49,6 +51,7 @@ namespace taibit {
       * @param ms describe parameter here, eg: 100
     */
     //% blockId="vibration_motor_pause" block="vibration motor pause (ms)| %ms"
+    //% weight=100
     export function vibrationMotorPause(ms: number) {
         vibration_Motor(1)
         basic.pause(ms)
