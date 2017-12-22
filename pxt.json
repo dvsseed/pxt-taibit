@@ -4,17 +4,15 @@
     "description": "Building Taibit package with PXT platform.",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.3.10"
+        "core": "*"
     },
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/robotbit-strings.json"
+        "taibit.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
-    "installedVersion": "github:dvsseed/pxt-taibit"
+    "public": true
 }
