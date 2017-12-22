@@ -1,16 +1,3 @@
-
-/**
- * Use this file to define custom functions and blocks for taibit.
- * Read more at https://makecode.microbit.org/blocks/custom
- */
-
-// enum MyEnum {
-    //% block="one"
-//    One,
-    //% block="two"
-//    Two
-// }
-
 /**
  * Taibit blocks
  */
