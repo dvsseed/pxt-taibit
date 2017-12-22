@@ -15,5 +15,6 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false
+    "public": true,
+    "installedVersion": "github:dvsseed/pxt-taibit"
 }
