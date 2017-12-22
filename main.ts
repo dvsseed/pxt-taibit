@@ -1,4 +1,6 @@
-
+/**
+    define
+*/
 namespace taibit {
     /** function */
     function delay_LED(item: number) {
