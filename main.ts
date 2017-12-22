@@ -1,4 +1,3 @@
-// tests go here; this will not be compiled when this package is used as a library
 /**
     Button A: play melody
     Button B: show led and turn on vibration motor
