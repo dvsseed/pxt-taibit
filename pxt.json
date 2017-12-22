@@ -4,8 +4,7 @@
     "description": "Building Taibit package with PXT platform.",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "taibit": "file:../pxt-taibit"
+        "core": "*"
     },
     "files": [
         "README.md",
